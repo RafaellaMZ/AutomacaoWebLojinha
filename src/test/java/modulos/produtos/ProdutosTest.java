@@ -131,6 +131,6 @@ public class ProdutosTest {
     @AfterEach
     public void afterEach() {
         //Vou fechar o navegador
-        //driver.quit();
+        driver.quit();
     }
 }
